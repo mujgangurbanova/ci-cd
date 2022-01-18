@@ -1,0 +1,13 @@
+name: 'Continous integration for React'
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  lint_and_test:
+    runs-on: ubuntu-latest
+
+     steps:
+     - name: example test
+       run: echo hello!
