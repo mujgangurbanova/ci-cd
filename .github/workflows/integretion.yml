@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: example test
-        run: echo hello!
+        run: echo hello, world!
