@@ -8,6 +8,6 @@ jobs:
   lint_and_test:
     runs-on: ubuntu-latest
 
-     steps:
-     - name: example test
-       run: echo hello!
+    steps:
+      - name: example test
+        run: echo hello!
